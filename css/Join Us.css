@@ -1,0 +1,122 @@
+.heading {
+    text-align: center;    
+    width: 300px;
+    margin: 50px auto;
+}
+
+h1 {
+font-family: "Oswald";
+font-size: 36;
+font-weight: 600;
+color:#373737;
+}
+
+.imageCarousel {
+    display: flex;
+    margin-left: 57px;
+    margin-right: 57px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.membership {
+    display: flex;
+    font-family: "Oswald";
+    font-size: 30;
+    font-weight: 700;
+    color: #F2F2F2;
+    background-color: #373737;
+    width: 368px;
+    height: 52px;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.volunteer {
+    display: flex;
+    font-family: "Oswald";
+    font-size: 30;
+    font-weight: 700;
+    color: #F2F2F2;
+    background-color: #373737;
+    width: 368px;
+    height: 52px;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+    margin-top: 150px;
+}
+
+#membershipContent {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 65px 10px 65px;
+}
+
+.memberParagraph {
+    font-family: Montserrat;
+    padding-right: 60px;
+}
+
+.memberButton button{
+    display: flex;
+    position: absolute;
+    top: 950px;
+    left: 198px;
+    background-color: #2D77A6;
+    color: #FFFFFF;
+    font-size: 18;
+    font-weight: 700;
+    font-family: "Oswald";
+    width: 256px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#membershipInfo {
+    display: flex
+}
+
+#memberImage {
+    display: flex;
+}
+#volunteerContent {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 65px 10px 65px;
+}
+
+.volunteerParagraph {
+    font-family: Montserrat;
+    padding-right: 60px;
+}
+
+.volunteerButton button{
+    display: flex;
+    position: absolute;
+    top: 1560px;
+    left: 198px;
+    background-color: #2D77A6;
+    color: #FFFFFF;
+    font-size: 18;
+    font-weight: 700;
+    font-family: "Oswald";
+    width: 256px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#volunteerInfo {
+    display: flex
+}
+
+#volunteerImage {
+    display: flex;
+}
