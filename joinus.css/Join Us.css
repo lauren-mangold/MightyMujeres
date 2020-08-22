@@ -5,10 +5,15 @@
 }
 
 h1 {
-font-family: "Oswald";
-font-size: 36;
-font-weight: 600;
-color:#373737;
+    font-family: "Oswald";
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #373737;
+
 }
 
 .imageCarousel {
@@ -48,25 +53,19 @@ color:#373737;
     margin-top: 150px;
 }
 
-#membershipContent {
-    display: flex;
-    flex-direction: row;
-    margin: 10px 65px 10px 65px;
-}
-
 .memberParagraph {
     font-family: Montserrat;
     padding-right: 60px;
+    display: grid;
+    grid-area: memberParagraph;
 }
 
 .memberButton button{
-    display: flex;
-    position: absolute;
-    top: 950px;
-    left: 198px;
+    display: grid;
+    grid-area: memberButton;
     background-color: #2D77A6;
     color: #FFFFFF;
-    font-size: 18;
+    font-size: 36;
     font-weight: 700;
     font-family: "Oswald";
     width: 256px;
@@ -78,28 +77,37 @@ color:#373737;
 }
 
 #membershipInfo {
-    display: flex
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "memberParagraph memberImage"
+    "memberButton memberImage";
 }
 
 #memberImage {
-    display: flex;
+    display: grid;
+    grid-area: memberImage;
 }
-#volunteerContent {
-    display: flex;
-    flex-direction: row;
-    margin: 10px 65px 10px 65px;
+#volunteerInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "volunteerParagraph volunteerImage"
+    "volunteerButton volunteerImage";
 }
 
 .volunteerParagraph {
     font-family: Montserrat;
     padding-right: 60px;
+    display: grid;
+    grid-area: volunteerParagraph;
 }
 
 .volunteerButton button{
-    display: flex;
-    position: absolute;
-    top: 1560px;
-    left: 198px;
+    display: grid;
+    grid-area: volunteerButton;
     background-color: #2D77A6;
     color: #FFFFFF;
     font-size: 18;
@@ -113,10 +121,7 @@ color:#373737;
     justify-content: center;
 }
 
-#volunteerInfo {
-    display: flex
-}
-
 #volunteerImage {
-    display: flex;
+    display: grid;
+    grid-area: volunteerImage;
 }
